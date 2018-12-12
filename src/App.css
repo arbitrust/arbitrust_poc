@@ -1,0 +1,50 @@
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.form-check-label {
+  padding-right: 10px;
+}
+.bip-nums {
+  max-width: 450px;
+  margin: auto;
+  padding: 10px;
+}
+
+.bipval {
+  max-width: 58px;
+  margin: auto;
+  padding: 10px;
+}
+
+.csp {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+
+input[type=number]{
+  width: 58px;
+  display: inline-block;
+} 
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
